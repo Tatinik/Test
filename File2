@@ -1,1 +1,29 @@
-1
+Протестить что в 2.39 у нас 3д работает
+Протестить миграцию с 2.38 на 2.39 что перескачает нужное 3д
+
+./adb devices    
+
+
+ios
+
+xcrun simctl list  /for ios
+yarn ios --simulator "iPhone 8"
+
+
+Yarn команды 
+1. запускаем из нужной папки 
+tatsianashyrko@Tatsianas-MacBook-Air ~ % cd anima-frontend 
+tatsianashyrko@Tatsianas-MacBook-Air anima-frontend % cd mobile 
+tatsianashyrko@Tatsianas-MacBook-Air mobile % 
+
+2. Yarn prepare-ios and android запускаем на смену
+
+Ветка;
+Не забываеть подтягивать изменения git pull
+git status  - посмотреть на какой я ветке
+
+
+  Android
+  emulator -list-avds  /check list of devicies
+  emulator -avd EMU_NAME /запуск нужного эмулятора, например, 
+  в другом окне терминала запускаем yarn run-androi`a`````ZZAZ 
