@@ -8,8 +8,12 @@ ios
 
 xcrun simctl list  /for ios
 yarn ios --simulator "iPhone 8"
+iPad Air (3rd generation)
+yarn ios --simulator "iPad Air (3rd generation)"
+yarn ios --simulator "iPhone 13 Pro Max"
 
 
+iPhone 13 Pro Max
 Yarn команды 
 1. запускаем из нужной папки 
 tatsianashyrko@Tatsianas-MacBook-Air ~ % cd anima-frontend 
